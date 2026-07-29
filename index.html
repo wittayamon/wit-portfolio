@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Portfolio ของวิทย์ นักพัฒนาเว็บไซต์ โปรแกรม และแอปพลิเคชัน">
+  <meta name="theme-color" content="#050816">
+  <title>WIT // Digital Maker</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="spotlight" id="spotlight"></div>
+
+  <header>
+    <a class="brand" href="#home"><b>&lt;/&gt;</b> WIT<span>.DEV</span></a>
+    <button id="menu" aria-label="เปิดเมนู">☰</button>
+    <nav id="nav">
+      <a href="#about">ABOUT</a>
+      <a href="#skills">STACK</a>
+      <a href="#projects">WORK</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="grid"></div>
+      <div class="hero-copy reveal">
+        <div class="available"><i></i> AVAILABLE FOR NEW IDEAS</div>
+        <p class="eyebrow">WEB · AUTOMATION · APPLICATION</p>
+        <h1>เปลี่ยนไอเดีย<br>ให้เป็น <em>ระบบที่ใช้งานจริง</em></h1>
+        <p class="intro">สวัสดีครับ ผมวิทย์ พัฒนาเว็บไซต์ โปรแกรม และแอปพลิเคชันสำหรับองค์กร โรงงาน และงานเฉพาะทาง</p>
+        <div class="actions">
+          <a class="primary" href="#projects">EXPLORE PROJECTS ↗</a>
+          <a class="secondary" href="#contact">LET'S TALK</a>
+        </div>
+      </div>
+
+      <div class="terminal reveal">
+        <div class="terminal-bar">
+          <div><i></i><i></i><i></i></div>
+          <span>developer.py</span>
+          <b>● LIVE</b>
+        </div>
+        <pre><code><span class="dim">01</span> <span class="purple">class</span> <span class="yellow">WitDeveloper</span>:
+<span class="dim">02</span>   <span class="blue">def</span> <span class="green">__init__</span>(self):
+<span class="dim">03</span>     self.role = <span class="orange">"Digital Maker"</span>
+<span class="dim">04</span>     self.stack = [
+<span class="dim">05</span>       <span class="orange">"Django"</span>,
+<span class="dim">06</span>       <span class="orange">"Python"</span>,
+<span class="dim">07</span>       <span class="orange">"Docker"</span>,
+<span class="dim">08</span>       <span class="orange">"Android"</span>
+<span class="dim">09</span>     ]
+<span class="dim">10</span>
+<span class="dim">11</span>   <span class="blue">def</span> <span class="green">build</span>(self, idea):
+<span class="dim">12</span>     <span class="purple">return</span> idea.to_product(
+<span class="dim">13</span>       useful=<span class="cyan">True</span>,
+<span class="dim">14</span>       reliable=<span class="cyan">True</span>
+<span class="dim">15</span>     )
+<span class="dim">16</span>
+<span class="dim">17</span> <span class="comment"># Ready to create something cool.</span>
+<span class="dim">18</span> $ <span id="typing"></span><span class="caret">▋</span></code></pre>
+      </div>
+    </section>
+
+    <div class="ticker">
+      <div>DJANGO ✦ PYTHON ✦ POSTGRESQL ✦ DOCKER ✦ ANDROID ✦ LINUX ✦ MQTT ✦ NGINX ✦ DJANGO ✦ PYTHON ✦ POSTGRESQL ✦ DOCKER ✦</div>
+    </div>
+
+    <section class="section" id="about">
+      <span class="number">01</span>
+      <div class="section-head reveal">
+        <p>ABOUT ME</p>
+        <h2>เข้าใจทั้งหน้างาน<br>และเบื้องหลังของระบบ</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p class="lead">ผมทำงานด้านการผลิตควบคู่กับการดูแลระบบไอที จึงไม่ได้มองแค่เรื่องโค้ด แต่คิดถึงผู้ใช้งานจริงด้วย</p>
+          <p>ตั้งแต่เก็บความต้องการ ออกแบบหน้าจอ เขียนระบบ ทดสอบ ติดตั้งบนเซิร์ฟเวอร์ ไปจนถึงดูแลหลังนำไปใช้งาน</p>
+        </div>
+        <div class="principles">
+          <article class="line-card reveal"><b>01</b><h3>Problem First</h3><p>เริ่มจากปัญหาจริง ไม่ได้เริ่มจากเทคโนโลยีที่อยากใช้</p></article>
+          <article class="line-card reveal"><b>02</b><h3>Built to Use</h3><p>หน้าจอใช้ง่ายและเหมาะกับคอมพิวเตอร์ แท็บเล็ต และมือถือ</p></article>
+          <article class="line-card reveal"><b>03</b><h3>Deploy & Maintain</h3><p>คิดถึงความปลอดภัย การสำรองข้อมูล และการดูแลต่อ</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark" id="skills">
+      <span class="number">02</span>
+      <div class="section-head reveal"><p>TECH STACK</p><h2>เครื่องมือที่ใช้สร้างระบบ</h2></div>
+      <div class="skill-grid">
+        <article class="skill reveal"><i>&lt;/&gt;</i><small>01</small><h3>Frontend</h3><p>Responsive UI, Dashboard และ Kiosk</p><ul><li>HTML / CSS</li><li>JavaScript</li><li>Chart.js</li></ul></article>
+        <article class="skill reveal"><i>{ }</i><small>02</small><h3>Backend</h3><p>Business Logic, API และฐานข้อมูล</p><ul><li>Python / Django</li><li>PostgreSQL</li><li>MQTT</li></ul></article>
+        <article class="skill reveal"><i>▣</i><small>03</small><h3>Application</h3><p>โปรแกรม Windows และแอป Android</p><ul><li>Android WebView</li><li>Python Desktop</li><li>PyInstaller</li></ul></article>
+        <article class="skill reveal"><i>⌁</i><small>04</small><h3>Infrastructure</h3><p>ติดตั้งระบบให้พร้อมใช้งานจริง</p><ul><li>Docker</li><li>Debian / Nginx</li><li>Git / Cloudflare</li></ul></article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <span class="number">03</span>
+      <div class="section-head reveal"><p>SELECTED WORK</p><h2>โปรเจกต์ที่สร้างจากปัญหาจริง</h2></div>
+
+      <div class="projects">
+        <article class="project featured reveal">
+          <div class="preview dashboard-preview">
+            <div class="window">
+              <div class="window-top"><span>Reject-Counter / Dashboard</span><b>LIVE SYSTEM</b></div>
+              <div class="dash">
+                <aside><strong>RC</strong><i></i><i></i><i></i><i></i></aside>
+                <div class="dash-main">
+                  <div class="dash-title"><span>PRODUCTION OVERVIEW</span><b>Dashboard</b></div>
+                  <div class="stats"><div><small>GOOD</small><b>12,840</b></div><div><small>REJECT</small><b>186</b></div><div><small>RATE</small><b>1.43%</b></div></div>
+                  <div class="chart"><i style="height:45%"></i><i style="height:70%"></i><i style="height:56%"></i><i style="height:88%"></i><i style="height:63%"></i><i style="height:92%"></i><i style="height:73%"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-copy">
+            <small>PROJECT / 01</small><p>FACTORY WEB APPLICATION</p><h3>Reject-Counter</h3>
+            <div>ระบบบันทึกของดีและของเสียสำหรับโรงงาน รองรับ Kiosk, Dashboard, Pareto, Excel Export, MQTT และการแจ้งเตือน</div>
+            <ul><li>DJANGO</li><li>POSTGRESQL</li><li>DOCKER</li><li>MQTT</li></ul>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="preview network-preview">
+            <div class="network">
+              <header>NETWORK MONITOR <i></i></header>
+              <p><b><i class="up"></i> CORE-SW-01</b><span>2 ms</span><em>ONLINE</em></p>
+              <p><b><i class="up"></i> ACCESS-SW-02</b><span>4 ms</span><em>ONLINE</em></p>
+              <p><b><i class="down"></i> ACCESS-SW-03</b><span>—</span><em class="off">OFFLINE</em></p>
+              <code>21:08:12 Alert sent to Microsoft Teams</code>
+            </div>
+          </div>
+          <div class="project-copy"><small>PROJECT / 02</small><p>MONITORING TOOL</p><h3>Network Monitor</h3><div>ตรวจสอบสถานะอุปกรณ์เครือข่าย บันทึกเหตุการณ์ และส่งการแจ้งเตือนอัตโนมัติ</div><ul><li>PYTHON</li><li>FASTAPI</li><li>TEAMS</li></ul></div>
+        </article>
+
+        <article class="project reveal">
+          <div class="preview app-preview">
+            <div class="phone">
+              <div class="speaker"></div>
+              <small>MC2 · ROOM 03</small><h4>Reject Counter</h4>
+              <div class="count"><span>Reject Total</span><b>18</b></div>
+              <p><button>−</button><b>Crack</b><button>＋</button></p>
+              <p><button>−</button><b>chip</b><button>＋</button></p>
+              <div class="save">Save DATA</div>
+            </div>
+          </div>
+          <div class="project-copy"><small>PROJECT / 03</small><p>ANDROID KIOSK APP</p><h3>Factory Kiosk</h3><div>แอป Full Screen สำหรับแท็บเล็ต ช่วยให้พนักงานเข้าระบบหน้างานได้ทันที</div><ul><li>ANDROID</li><li>WEBVIEW</li><li>KIOSK</li></ul></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-inner reveal">
+        <p>HAVE AN IDEA?</p>
+        <h2>มาสร้างระบบเจ๋ง ๆ<br><span>ไปด้วยกัน</span></h2>
+        <a href="mailto:wittayamon@gmail.com">START A CONVERSATION <b>↗</b></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#home"><b>&lt;/&gt;</b> WIT<span>.DEV</span></a>
+    <p>© <span id="year"></span> WIT DEV · BUILT WITH CURIOSITY</p>
+    <a href="#home">BACK TO TOP ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
