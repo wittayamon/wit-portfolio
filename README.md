@@ -1,38 +1,68 @@
-# WIT Portfolio — Cool Cyber Version
+# WIT.DEV — Portfolio Website
 
-เว็บไซต์ Portfolio แบบ Cyber / Neon / Developer Console
+Personal portfolio website for Web Development,
+Application Development and System Automation.
 
-## เปิดเว็บไซต์
+## About
 
-ดับเบิลคลิก `index.html` หรือเปิดด้วย VS Code + Live Server
+ผมพัฒนาเว็บไซต์ โปรแกรม และแอปพลิเคชัน
+สำหรับแก้ปัญหาการทำงานจริง เช่น ระบบโรงงาน
+Dashboard, Automation และ Application สำหรับหน้างาน
 
-## ไฟล์
+## Projects
 
-- `index.html`
-- `style.css`
-- `script.js`
-- `favicon.svg`
+### Reject-Counter
+Factory Web Application
 
-## แก้ข้อมูลก่อนใช้งานจริง
+- Django
+- PostgreSQL
+- Docker
+- MQTT
+- Dashboard
+- Production Monitoring
 
-เปิด `index.html` แล้วค้นหาและเปลี่ยน:
 
-```text
+### Network Monitor
+
+Network monitoring tool
+
+- Python
+- FastAPI
+- Notification System
+
+
+### Factory Kiosk App
+
+Android application for production operation
+
+- Android
+- WebView
+- Kiosk Mode
+
+
+## Technology
+
+Frontend:
+- HTML
+- CSS
+- JavaScript
+
+Backend:
+- Python
+- Django
+- PostgreSQL
+
+Infrastructure:
+- Docker
+- Linux
+- Nginx
+- Git
+
+
+## Contact
+
+Email:
 your-email@example.com
+
+GitHub:
 your-github
-```
-
-## นำขึ้น GitHub Pages
-
-1. สร้าง Repository ใหม่
-2. อัปโหลดไฟล์ทั้งหมดขึ้น Branch `main`
-3. เปิด `Settings > Pages`
-4. เลือก `Deploy from a branch`
-5. เลือก `main` และ `/root`
-6. กด `Save`
-
-Custom domain ที่เหมาะกับเว็บนี้ เช่น:
-
-```text
-portfolio.witwizz.com
-```
