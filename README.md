@@ -65,4 +65,4 @@ Email:
 contact@witwizz.com
 
 GitHub:
-[your-github](https://github.com/wittayamon)
+[Witty-github](https://github.com/wittayamon)
