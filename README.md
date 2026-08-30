@@ -62,7 +62,7 @@ Infrastructure:
 ## Contact
 
 Email:
-your-email@example.com
+contact@witwizz.com
 
 GitHub:
-your-github
+[your-github](https://github.com/wittayamon)
